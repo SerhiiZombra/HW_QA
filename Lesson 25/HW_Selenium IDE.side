@@ -1,0 +1,597 @@
+{
+  "id": "6da00925-ca31-4100-9e97-7fef80e01c11",
+  "version": "2.0",
+  "name": "HW_Mighty Beet",
+  "url": "https://hotline.ua/",
+  "tests": [{
+    "id": "844d8036-c8f3-4900-acab-b012f70cad67",
+    "name": "Review of steam iron reviews",
+    "commands": [{
+      "id": "1c856548-983d-4949-b25a-846f675b5701",
+      "comment": "",
+      "command": "open",
+      "target": "https://hotline.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45220781-8086-4ef6-b39e-4681f13fb4ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f8f03aa-0f1e-4091-9f04-e81cb0659525",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-menu-main > .hidden-below-xl",
+      "targets": [
+        ["css=.button-menu-main > .hidden-below-xl", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'товарів')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "600873cf-d7d2-45db-8a49-386281230e5b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Побутова техніка",
+      "targets": [
+        ["linkText=Побутова техніка", "linkText"],
+        ["css=.active > .menu-main__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Побутова техніка')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/bt/')])[4]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Побутова техніка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4782a27-fa35-459f-bdbd-ca3c2eda0c61",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1900)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b27da9e1-766d-4dcc-8071-4440cf082115",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[5]/a/div",
+      "targets": [
+        ["css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(5) div", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[5]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4325737b-5491-462f-bf61-7a9ba7f587de",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7ba7f4b-d152-40c2-b7be-545ce72ae3e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-sidebar:nth-child(1) .sidebar-filters__item:nth-child(1) .filter-checklist__item:nth-child(1) > .checkbox__checkmark",
+      "targets": [
+        ["css=.catalog-sidebar:nth-child(1) .sidebar-filters__item:nth-child(1) .filter-checklist__item:nth-child(1) > .checkbox__checkmark", "css:finder"],
+        ["xpath=//div[@id='sidebar-filters']/div/div/div/div[2]/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d1fb8d3-9331-49f5-b73f-580315165f7c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tefal Ultimate Pure FV9845",
+      "targets": [
+        ["linkText=Tefal Ultimate Pure FV9845", "linkText"],
+        ["css=.list-item:nth-child(8) .list-item__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Tefal Ultimate Pure FV9845')]", "xpath:link"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[8]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/bt-utyugi/tefal-ultimate-pure-fv9845/')])[2]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tefal Ultimate Pure FV9845')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d225db26-e3b6-4975-8c86-ca98e306f864",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "linkText=Tefal Ultimate Pure FV9845",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01db5917-aca1-47b6-b5fc-ec830df7263f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c9c7a67-0c8c-490a-9170-48ee019eae96",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tabs-item:nth-child(4) > b",
+      "targets": [
+        ["css=.tabs-item:nth-child(4) > b", "css:finder"],
+        ["xpath=//div[@id='tabs']/div/div/div[4]/b", "xpath:idRelative"],
+        ["xpath=//div[4]/b", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c7c89d-a11a-4d27-ade2-a644a6bab0b7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,753)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f69c07a-d6d1-4417-b4f8-6454e93b9b7d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "14c7f17c-c714-4cc0-8c2a-2360931815b2",
+    "name": "Buying a steam iron",
+    "commands": [{
+      "id": "a4ab52b9-b313-48d1-b2ee-31d39b26db8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://hotline.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6edf2dd1-df06-4c27-a42a-27f6617e3b35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7f805f6-2909-4b2e-90ff-ea46fdaaaf3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-menu-main",
+      "targets": [
+        ["css=.button-menu-main", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0af331c-592a-4e1c-ae85-e694d29c5bde",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Побутова техніка",
+      "targets": [
+        ["linkText=Побутова техніка", "linkText"],
+        ["css=.active > .menu-main__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Побутова техніка')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/bt/')])[4]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Побутова техніка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43f4ae8a-7267-49b8-ab08-343863863d0f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[5]/a/div",
+      "targets": [
+        ["css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(5) div", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[5]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11a03c3b-f096-42e2-8df6-750f3ac53ead",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(2) div",
+      "targets": [
+        ["css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(2) div", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fb491a9-b5e4-46c3-81b7-db6ee03108f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87db3395-f0c5-40b1-aa60-bb553d1ad0a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-sidebar:nth-child(1) .sidebar-filters__item:nth-child(1) .filter-checklist__item:nth-child(1) > .checkbox__checkmark",
+      "targets": [
+        ["css=.catalog-sidebar:nth-child(1) .sidebar-filters__item:nth-child(1) .filter-checklist__item:nth-child(1) > .checkbox__checkmark", "css:finder"],
+        ["xpath=//div[@id='sidebar-filters']/div/div/div/div[2]/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ad4f441-1bb9-44d1-95b8-70c32eb82cab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "171fe622-bf71-4a1f-9fff-5315ac0478ca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tefal Ultimate Pure FV9845",
+      "targets": [
+        ["linkText=Tefal Ultimate Pure FV9845", "linkText"],
+        ["css=.list-item:nth-child(8) .list-item__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Tefal Ultimate Pure FV9845')]", "xpath:link"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[8]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/bt-utyugi/tefal-ultimate-pure-fv9845/')])[2]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tefal Ultimate Pure FV9845')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7af28dd7-cc9e-4802-a2d3-3b71078f0450",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f48f1f0-01c5-4c31-b0f5-ee5995e7685f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,502)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f1fb2f6-57d4-4e24-97cd-08b174bee7da",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list__item:nth-child(8) .info__buy-shop",
+      "targets": [
+        ["css=.list__item:nth-child(8) .info__buy-shop", "css:finder"],
+        ["xpath=(//a[contains(text(),'Купити')])[13]", "xpath:link"],
+        ["xpath=//div[@id='tabs']/div[3]/div[3]/div[8]/div[2]/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/go/price/13376274393/')])[6]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div/div[4]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3434",
+      "windowTimeout": 2000
+    }, {
+      "id": "cdb17e7c-f3df-43bf-ad01-cfa54cece359",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d78ed5c-4801-46aa-96d4-16819bb2dcc5",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win3434}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2afcdc56-0dbf-4a35-bd17-c900a8099416",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button__label",
+      "targets": [
+        ["css=.buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6402105-fdd1-4487-ba56-e1b3bb0ad690",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Оформить заказ",
+      "targets": [
+        ["linkText=Оформить заказ", "linkText"],
+        ["css=.button_size_large", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/checkout/')]", "xpath:href"],
+        ["xpath=//rz-shopping-cart/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a118ada-d73c-44eb-94ac-53106964397b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4523ea1-494e-4f6b-a128-ecdffc0b4c98",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bdf9d9c-a095-4e2d-8f49-39b2f07d3f0c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "773246f3-d9de-46a6-8f53-9f261fc41cc1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "310123d9-9214-431d-b94e-f9b99bfd1a2f",
+    "name": "Comparison of three steam irons",
+    "commands": [{
+      "id": "cbb6d6cc-4974-44ca-ba43-e7321880d365",
+      "comment": "",
+      "command": "open",
+      "target": "https://hotline.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e51fd8c8-6639-43a7-9f5f-43370a9f5785",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf6da0e7-229c-4d56-a536-e4435e625ca9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-menu-main",
+      "targets": [
+        ["css=.button-menu-main", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bcdce72a-06d9-4d07-b34f-88f5fa101c57",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Побутова техніка",
+      "targets": [
+        ["linkText=Побутова техніка", "linkText"],
+        ["css=.active > .menu-main__item-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Побутова техніка')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/header/div/div/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/bt/')])[4]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Побутова техніка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8874a72-0d7e-44e8-ab07-94f80626397f",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "linkText=Побутова техніка",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb503305-836b-40df-ae5f-04e95fc4dfda",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5f9b770-ca57-420d-92d5-420680c2d049",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(5) img",
+      "targets": [
+        ["css=.navigation-block:nth-child(4) .section-navigation__item:nth-child(5) img", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div[3]/div/div/div/div/div[4]/div[3]/div[5]/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50706c8d-3464-41c2-b981-b7558ae9f781",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ea4ed80-fb5c-46ec-aa8b-41a552428f62",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1341)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e64d1d3f-8ef9-4f5d-b7cb-55a479b69eaf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='sidebar-filters']/div/div/div/div[2]/div[2]/label/div",
+      "targets": [
+        ["css=.catalog-sidebar:nth-child(1) .sidebar-filters__item:nth-child(1) .filter-checklist__item:nth-child(1) > .checkbox__checkmark", "css:finder"],
+        ["xpath=//div[@id='sidebar-filters']/div/div/div/div[2]/div[2]/label/div", "xpath:idRelative"],
+        ["xpath=//label/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "444cb2a4-2bbf-462e-8379-0ca601afeba7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,220)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63e9fe9e-b6b5-41b5-b130-ca2bd066af3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(2) .list-item__compare-icon",
+      "targets": [
+        ["css=.list-item:nth-child(2) .list-item__compare-icon", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c3eab1-3a43-4b17-8fb7-5f8b971341db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(4) .list-item__compare-icon",
+      "targets": [
+        ["css=.list-item:nth-child(4) .list-item__compare-icon", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c93194-4a24-4134-9a45-f0fb0482beb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer__btn",
+      "targets": [
+        ["css=.footer__btn", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[4]/div[4]/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Закрити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa1dd2d4-f3b8-423d-a2b0-2d4ad2dff0f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(2) .list-item__compare-icon",
+      "targets": [
+        ["css=.list-item:nth-child(2) .list-item__compare-icon", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67dedc19-aa09-4e7e-b53a-99744850030a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__close-icon",
+      "targets": [
+        ["css=.modal__close-icon", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[2]/div[4]/div/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div[2]/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c40d100-d3ba-4758-81ee-8efe6fa96cb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-item:nth-child(8) .list-item__compare-icon",
+      "targets": [
+        ["css=.list-item:nth-child(8) .list-item__compare-icon", "css:finder"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[8]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79eab309-9192-467f-af4b-f34a9a526c90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer__btn--compare",
+      "targets": [
+        ["css=.footer__btn--compare", "css:finder"],
+        ["xpath=//a[contains(text(),'Порівняти (3)')]", "xpath:link"],
+        ["xpath=//div[@id='catalogListContainer']/div[2]/div[4]/div/div/div[8]/div[4]/div/div[4]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/bt/utyugi/cmp/?s=16369927-22801934-16369953')])[4]", "xpath:href"],
+        ["xpath=//div[4]/div/div[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Порівняти (3)')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2527",
+      "windowTimeout": 2000
+    }, {
+      "id": "832d6927-8896-4fa3-8b17-7f8dc3be2553",
+      "comment": "",
+      "command": "verifyNotEditable",
+      "target": "css=.footer__btn--compare",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f4cf4bf-67ec-49da-ac66-ec40b5696ac4",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8a74b84-1211-4961-8ace-7900ff9baaee",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2527}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "799e4fea-a1c3-4ea0-bee5-be1894cf4282",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1002)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5cdec8f9-1b6e-42dc-a19b-03ca99cf4a71",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1669176-d36f-4787-a6db-833fb0ad0a41",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9092bf07-6172-424d-b1eb-ba00b9c2789e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ced2c58-5812-4737-b149-0b517163070b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${undefined}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eb8ab0df-c4ba-42b7-8e41-4c42218afba0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://kurs.com.ua/", "https://hotline.ua/"],
+  "plugins": []
+}
